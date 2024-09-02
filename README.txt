@@ -3,11 +3,11 @@
 
 
 
-This script processes multiple PDF files from Jhicken's Composer Quant Tools browser plugin (https://github.com/jhicken/composer-quant-tools).
+This Python script processes multiple PDF files from Jhicken's Composer Quant Tools browser plugin (https://github.com/jhicken/composer-quant-tools) in order to compare metrics using excel.  
 
-That tool is itself forked from https://github.com/dpods/symphony-tools 
+JHicken's tool is itself forked from DPods browser plugin https://github.com/dpods/symphony-tools 
 
-It extracts key metrics from each PDF saving the results into a CSV file. It handles PDFs that contain financial or performance data, such as "live," "backtest," or "oos" scenarios, and organizes the extracted data into a structured format.  Especially useful for portfolio's running 20+ Composer Symphonies. 
+The script extracts key metrics from each PDF saving the results into a CSV file. It PDF get's its own row for easy filtering and comparison.  It handles PDFs that contain financial or performance data, such as "live," "backtest," or "oos" scenarios, and organizes the extracted data into a structured format.  Especially useful for portfolio's running 20+ Composer Symphonies. 
 
 ## Features
 
