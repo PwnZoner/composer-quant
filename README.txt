@@ -1,7 +1,13 @@
 
 # PDF Metrics Extraction Script
 
-This script processes multiple PDF files and extracts key metrics from each, saving the results into a CSV file. It handles PDFs that contain financial or performance data, such as "live," "backtest," or "oos" scenarios, and organizes the extracted data into a structured format.
+
+
+This script processes multiple PDF files from Jhicken's Composer Quant Tools browser plugin (https://github.com/jhicken/composer-quant-tools).
+
+That tool is itself forked from https://github.com/dpods/symphony-tools 
+
+It extracts key metrics from each PDF saving the results into a CSV file. It handles PDFs that contain financial or performance data, such as "live," "backtest," or "oos" scenarios, and organizes the extracted data into a structured format.  Especially useful for portfolio's running 20+ Composer Symphonies. 
 
 ## Features
 
